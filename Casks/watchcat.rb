@@ -1,6 +1,6 @@
 cask "watchcat" do
-  version "1.0.1"
-  sha256 "04e40b46c1ee8249e18b48e4948da7a47e8cb823c12f2a0a94b601faf1698740"
+  version "1.0.2"
+  sha256 "17d924393cb41f7888b71b1cb9b9cf314172ee2d4fd3ce1a3b21af630046ba9a"
 
   url "https://github.com/hyunjoon0312/watchCat/releases/download/v#{version}/watchCat-#{version}.zip"
   name "watchCat"
@@ -24,5 +24,7 @@ cask "watchcat" do
     "~/Library/Application Support/watchCat",
     "~/Library/Preferences/com.dayflow.watchCat.plist",
     "~/Library/Caches/com.dayflow.watchCat",
+    "~/Library/HTTPStorages/com.dayflow.watchCat",
+    "~/Library/Saved Application State/com.dayflow.watchCat.savedState",
   ]
 end
